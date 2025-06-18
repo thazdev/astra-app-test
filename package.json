@@ -1,10 +1,20 @@
 {
-    "name": "astra-app",
-    "version": "1.0.0",
-    "private": true,
-    "workspaces": [
-      "packages/frontend",
-      "packages/backend"
-    ]
+  "name": "astra-app",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/frontend",
+    "packages/backend"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/cors": "^2.8.19",
+    "playwright": "^1.53.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.20.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
   }
-  
+}
